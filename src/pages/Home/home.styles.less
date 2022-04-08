@@ -1,0 +1,71 @@
+.feedContainer {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 3rem 0px;
+  padding-top: 350px;
+
+  .skeletonContainer {
+    height: 300px;
+  }
+
+  .searchResultText {
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #888888;
+
+    span {
+      color: #000;
+      font-weight: bold;
+    }
+  }
+
+  .masonry {
+    margin: 0px -16px;
+  }
+
+  .imgContainer {
+    margin-bottom: 16px;
+    padding: 0px 8px;
+    width: 33.33%;
+    cursor: pointer;
+
+    &:hover {
+      .imgInfoContainer {
+        display: block;
+      }
+    }
+
+    .imgItem {
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .imgInfoContainer {
+      display: none;
+      position: absolute;
+      right: 8px;
+      background-color: #0000004f;
+      width: calc(100% - 16px);
+      height: 100%;
+    }
+
+    .imgInfo {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 16px;
+      margin-right: 16px;
+    }
+
+    .userInfo {
+      margin-right: 8px;
+      color: #fff;
+    }
+  }
+}
+
+.totalDisplayed {
+  text-align: center;
+  margin: 30px 0px;
+  color: #888888;
+}
