@@ -1,5 +1,13 @@
 # Gallery App
 
+## Environment Variables
+
+`REACT_APP_API_URL=https://api.unsplash.com`\
+`REACT_APP_API_VERSION=v1`\
+`REACT_APP_API_CLIENT_ID=`
+
+Please ask the developer for the CLIENT_ID
+
 ## Available Scripts
 
 In the project directory, you can run:
